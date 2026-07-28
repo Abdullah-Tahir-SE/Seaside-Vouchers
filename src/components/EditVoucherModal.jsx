@@ -51,14 +51,14 @@ function EditVoucherModal({ closeModal }) {
         <div className="mt-6 flex justify-center gap-4">
           <button
             onClick={closeModal}
-            className="w-28 rounded-full bg-white py-3 hover:bg-gray-200 text-sm text-black transition-colors"
+            className="w-28 rounded-full bg-white py-3 hover:bg-gray-200 text-sm text-black"
           >
             Cancel
           </button>
 
           <button
             onClick={closeModal}
-            className="w-32 rounded-full bg-[#ff9f2f] hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out py-3 text-sm font-semibold text-white transition-colors shadow-sm"
+            className="w-32 rounded-full bg-[#ff9f2f] hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out py-3 text-sm font-semibold text-white shadow-sm"
           >
             Save Changes
           </button>

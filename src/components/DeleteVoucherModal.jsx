@@ -18,14 +18,14 @@ function DeleteVoucherModal({ closeModal }) {
           <div className="flex justify-center gap-4">
             <button
               onClick={closeModal}
-              className="w-28 rounded-full border border-gray-200 hover:bg-gray-200 bg-white py-3 text-sm text-black transition-colors"
+              className="w-28 rounded-full border border-gray-200 hover:bg-gray-200 bg-white py-3 text-sm text-black"
             >
               Cancel
             </button>
 
             <button
               onClick={closeModal}
-              className="w-28 rounded-full bg-[#EA4334] hover:bg-red-600 py-3 text-sm text-white transition-colors"
+              className="w-28 rounded-full bg-[#EA4334] hover:bg-red-600 py-3 text-sm text-white"
             >
               Delete
             </button>

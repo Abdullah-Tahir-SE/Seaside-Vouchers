@@ -177,7 +177,7 @@ function VouchersPage() {
         </h1>
         <button
           onClick={() => setShowAddModal(true)}
-          className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out shadow-md transition-colors"
+          className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out shadow-md"
         >
           <img src={vector} alt="add" className="h-4 w-4" />
           <span>Add Vouchers</span>
@@ -189,7 +189,7 @@ function VouchersPage() {
         <div className="flex w-fit rounded-[2rem] bg-white p-1.5 shadow-sm">
           <button
             onClick={() => setActiveTab("Approved")}
-            className={`rounded-full px-8 py-2.5 text-[13px] font-semibold transition-colors ${activeTab === "Approved" ? "bg-[#ff9f2f] text-white" : "text-black"
+            className={`rounded-full px-8 py-2.5 text-[13px] font-semibold ${activeTab === "Approved" ? "bg-[#ff9f2f] text-white" : "text-black"
               }`}
           >
             Approved Vouchers
@@ -197,7 +197,7 @@ function VouchersPage() {
 
           <button
             onClick={() => setActiveTab("Pending")}
-            className={`flex items-center gap-2 rounded-full px-8 py-2.5 text-[13px] font-semibold transition-colors ${activeTab === "Pending" ? "bg-[#ff9f2f] text-white" : "text-black"
+            className={`flex items-center gap-2 rounded-full px-8 py-2.5 text-[13px] font-semibold ${activeTab === "Pending" ? "bg-[#ff9f2f] text-white" : "text-black"
               }`}
           >
             Pending Vouchers

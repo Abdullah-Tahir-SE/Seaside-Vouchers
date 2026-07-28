@@ -131,10 +131,10 @@ function CompanyDetailPage() {
 
         {/* Bottom Actions */}
         <div className="mt-12 flex items-center justify-center gap-8 mb-4">
-          <button className="rounded-[2rem] border-[1.5px] border-green-500 bg-green-50 px-12 py-3 text-[17px] font-semibold text-green-600 hover:bg-green-100 transition-colors">
+          <button className="rounded-[2rem] border-[1.5px] border-green-500 bg-green-50 px-12 py-3 text-[17px] font-semibold text-green-600 hover:bg-green-100">
             Approve
           </button>
-          <button className="rounded-[2rem] border-[1.5px] border-red-500 bg-red-50 px-12 py-3 text-[17px] font-semibold text-red-500 hover:bg-red-100 transition-colors">
+          <button className="rounded-[2rem] border-[1.5px] border-red-500 bg-red-50 px-12 py-3 text-[17px] font-semibold text-red-500 hover:bg-red-100">
             Disapproved
           </button>
         </div>

@@ -59,7 +59,7 @@ function AddVoucherModal({ closeModal }) {
             <div className="flex items-end justify-center gap-6">
               {/* Company image upload */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-32 h-28 bg-white border border-gray-100 rounded-[10px] shadow-sm flex items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors">
+                <div className="w-32 h-28 bg-white border border-gray-100 rounded-[10px] shadow-sm flex items-center justify-center cursor-pointer hover:bg-gray-50">
                   <div className="w-10 h-10 bg-[#FBA235] rounded-full flex items-center justify-center text-white shadow-sm">
                     <Plus size={20} strokeWidth={2.5} />
                   </div>
@@ -69,7 +69,7 @@ function AddVoucherModal({ closeModal }) {
 
               {/* Voucher image upload */}
               <div className="flex flex-col items-center gap-2">
-                <div className="w-32 h-28 bg-white border border-gray-100 rounded-[10px] shadow-sm flex items-center justify-center cursor-pointer hover:bg-gray-50 transition-colors">
+                <div className="w-32 h-28 bg-white border border-gray-100 rounded-[10px] shadow-sm flex items-center justify-center cursor-pointer hover:bg-gray-50">
                   <div className="w-10 h-10 bg-[#FBA235] rounded-full flex items-center justify-center text-white shadow-sm">
                     <Plus size={20} strokeWidth={2.5} />
                   </div>
@@ -98,7 +98,7 @@ function AddVoucherModal({ closeModal }) {
                       <div
                         key={company.id}
                         onClick={() => { setForm(f => ({ ...f, companyId: company.id })); setCompanyDropdownOpen(false); }}
-                        className={`px-5 py-2.5 text-sm cursor-pointer hover:bg-gray-50 transition-colors
+                        className={`px-5 py-2.5 text-sm cursor-pointer hover:bg-gray-50
                           ${i !== 0 ? 'border-t border-dashed border-gray-100' : ''}
                           ${form.companyId === company.id ? 'text-[#3ECFC4] font-semibold' : 'text-gray-700'}`}
                       >
