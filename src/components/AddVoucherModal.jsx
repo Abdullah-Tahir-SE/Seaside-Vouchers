@@ -191,7 +191,7 @@ function AddVoucherModal({ closeModal }) {
             <div className="flex justify-center mt-6">
               <button
                 type="submit"
-                className="bg-[#FBA235] hover:-translate-y-1 hover:shadow-lg active:scale-95 transition-all duration-300 text-white font-bold py-3.5 px-12 rounded-full shadow-md text-sm w-full sm:w-auto min-w-[200px] cursor-pointer"
+                className="bg-[#FBA235] hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out text-white font-bold py-3.5 px-12 rounded-full shadow-md text-sm w-full sm:w-auto min-w-[200px] cursor-pointer"
               >
                 Add Voucher
               </button>

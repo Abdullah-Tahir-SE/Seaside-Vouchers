@@ -49,7 +49,7 @@ function AddCompanyModal({ closeModal }) {
         <div className="mt-5 flex justify-center">
           <button
             onClick={closeModal}
-            className="w-full rounded-full bg-orange-400 hover:-translate-y-1 hover:shadow-lg active:scale-95 transition-all duration-300 py-3 text-sm font-semibold text-white sm:w-auto sm:px-14"
+            className="w-full rounded-full bg-orange-400 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out py-3 text-sm font-semibold text-white sm:w-auto sm:px-14"
           >
             Add Company
           </button>

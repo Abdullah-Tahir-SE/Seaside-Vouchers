@@ -58,7 +58,7 @@ function EditVoucherModal({ closeModal }) {
 
           <button
             onClick={closeModal}
-            className="w-32 rounded-full bg-[#ff9f2f] hover:-translate-y-1 hover:shadow-lg active:scale-95 transition-all duration-300 py-3 text-sm font-semibold text-white transition-colors shadow-sm"
+            className="w-32 rounded-full bg-[#ff9f2f] hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(251,162,53,0.5)] active:scale-95 transition-all duration-300 ease-out py-3 text-sm font-semibold text-white transition-colors shadow-sm"
           >
             Save Changes
           </button>

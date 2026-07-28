@@ -78,7 +78,7 @@ function EditPackageModal({ closeModal }) {
 
           <button
             onClick={closeModal}
-            className="w-32 rounded-full bg-orange-200 hover:-translate-y-1 hover:shadow-md active:scale-95 transition-all duration-300 py-3 text-sm text-black"
+            className="w-32 rounded-full bg-orange-200 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_20px_rgba(253,186,116,0.6)] active:scale-95 transition-all duration-300 ease-out py-3 text-sm text-black"
           >
             Add Package
           </button>
