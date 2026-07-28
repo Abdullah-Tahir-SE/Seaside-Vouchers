@@ -1,6 +1,6 @@
 <div align="center">
   <img src="src/assets/logo1.png" alt="Seaside Vouchers Logo" width="120" />
-  <h1>🏖️ Seaside Vouchers - Enterprise Admin Dashboard</h1>
+  <h1> Seaside Vouchers - Enterprise Admin Dashboard</h1>
   
   <p>
     <strong>A modern, high-performance administrative panel for managing partnered companies, promotional vouchers, and customer engagement.</strong>
