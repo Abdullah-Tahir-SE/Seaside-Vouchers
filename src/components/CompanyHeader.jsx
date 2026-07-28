@@ -9,7 +9,7 @@ function CompanyHeader({openModal}) {
 
       <button 
       onClick={openModal}
-      className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:bg-orange-500">
+      className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:-translate-y-1 hover:shadow-lg active:scale-95 transition-all duration-300">
         <img src={vector} alt = "vector" className="h-4 w-4"/>
         <span> Add Company </span>
       </button>

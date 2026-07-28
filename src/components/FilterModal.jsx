@@ -30,7 +30,7 @@ function FilterModal({ closeModal }) {
 
           <button
             onClick={closeModal}
-            className="w-28 rounded-full bg-orange-200 hover:bg-orange-300 py-3 text-sm text-black"
+            className="w-28 rounded-full bg-orange-200 hover:-translate-y-1 hover:shadow-md active:scale-95 transition-all duration-300 py-3 text-sm text-black"
           >
             Add
           </button>

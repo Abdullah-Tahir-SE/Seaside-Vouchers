@@ -177,7 +177,7 @@ function VouchersPage() {
         </h1>
         <button
           onClick={() => setShowAddModal(true)}
-          className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:bg-orange-500 shadow-md transition-colors"
+          className="flex items-center justify-center gap-2 rounded-xl bg-orange-400 px-7 py-3 text-sm text-white hover:-translate-y-1 hover:shadow-lg active:scale-95 transition-all duration-300 shadow-md transition-colors"
         >
           <img src={vector} alt="add" className="h-4 w-4" />
           <span>Add Vouchers</span>
