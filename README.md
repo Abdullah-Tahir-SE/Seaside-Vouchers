@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/favicon.svg" alt="Seaside Vouchers Logo" width="120" />
+  <img src="src/assets/logo1.png" alt="Seaside Vouchers Logo" width="120" />
   <h1>🏖️ Seaside Vouchers - Enterprise Admin Dashboard</h1>
   
   <p>
